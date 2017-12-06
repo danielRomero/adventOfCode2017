@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+
+require_relative "../lib/adventOfCode2017"
+require 'pry'
+Pry.start
