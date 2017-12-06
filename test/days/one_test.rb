@@ -6,7 +6,7 @@ class OneTest < Minitest::Test
     input = 1122
     expected_output = 3
 
-    output = AdventOfCode2017::One.run(input)
+    output = AdventOfCode2017::One::Solution.run(input)
     assert_equal expected_output, output
   end
 
@@ -14,7 +14,7 @@ class OneTest < Minitest::Test
     input = 1111
     expected_output = 4
 
-    output = AdventOfCode2017::One.run(input)
+    output = AdventOfCode2017::One::Solution.run(input)
     assert_equal expected_output, output
   end
 
@@ -22,7 +22,7 @@ class OneTest < Minitest::Test
     input = 1234
     expected_output = 0
 
-    output = AdventOfCode2017::One.run(input)
+    output = AdventOfCode2017::One::Solution.run(input)
     assert_equal expected_output, output
   end
 
@@ -30,7 +30,7 @@ class OneTest < Minitest::Test
     input = 91212129
     expected_output = 9
 
-    output = AdventOfCode2017::One.run(input)
+    output = AdventOfCode2017::One::Solution.run(input)
     assert_equal expected_output, output
   end
 
@@ -42,7 +42,7 @@ class OneTest < Minitest::Test
     expected_output = 6
 
     offset = input.to_s.length / 2
-    output = AdventOfCode2017::One.run(input, offset)
+    output = AdventOfCode2017::One::Solution.run(input, offset)
     assert_equal expected_output, output
   end
 
@@ -51,7 +51,7 @@ class OneTest < Minitest::Test
     expected_output = 0
 
     offset = input.to_s.length / 2
-    output = AdventOfCode2017::One.run(input, offset)
+    output = AdventOfCode2017::One::Solution.run(input, offset)
     assert_equal expected_output, output
   end
 
@@ -60,7 +60,7 @@ class OneTest < Minitest::Test
     expected_output = 4
 
     offset = input.to_s.length / 2
-    output = AdventOfCode2017::One.run(input, offset)
+    output = AdventOfCode2017::One::Solution.run(input, offset)
     assert_equal expected_output, output
   end
 
@@ -69,7 +69,7 @@ class OneTest < Minitest::Test
     expected_output = 12
 
     offset = input.to_s.length / 2
-    output = AdventOfCode2017::One.run(input, offset)
+    output = AdventOfCode2017::One::Solution.run(input, offset)
     assert_equal expected_output, output
   end
 
@@ -78,7 +78,7 @@ class OneTest < Minitest::Test
     expected_output = 4
 
     offset = input.to_s.length / 2
-    output = AdventOfCode2017::One.run(input, offset)
+    output = AdventOfCode2017::One::Solution.run(input, offset)
     assert_equal expected_output, output
   end
 
